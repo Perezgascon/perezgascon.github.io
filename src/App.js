@@ -46,7 +46,7 @@ function App() {
       {products && <Table list={products} />}
   <AddForm handlerAddItem={apiPost} /> */}
       {/* <YesOrNo /> */}
-      <GameOfThrones />
+      <YesOrNo />
     </div>
   );
 }
